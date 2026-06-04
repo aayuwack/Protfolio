@@ -1,0 +1,112 @@
+HEADER
+
+Aayush Lamichhane
+B.Sc. CSIT Student | Aspiring Software Developer
+
+Home
+About
+Portfolio
+Skills
+Contact
+Blog
+
+Download CV
+
+HERO SECTION
+
+Alt = Profile Photo
+
+2+
+Years of Academic & Practical Learning
+
+15+
+Academic and Personal Projects
+
+Hello, I’m
+
+Aayush Lamichhane
+
+Computer Science Student & Aspiring Software Developer (Nepal)
+
+I am a motivated computer science student with a strong interest in software development, modern web technologies, and problem-solving. I focus on building practical, efficient, and user-friendly applications while continuously improving my technical skills.
+
+Get in Touch
+Learn More About Me
+
+ABOUT SECTION
+
+Alt = Profile Photo
+
+About Me
+
+I Develop Practical and Meaningful Applications
+
+I am currently pursuing a B.Sc. CSIT degree at Kathford International College of Engineering and Management. My academic journey and self-learning efforts have helped me gain hands-on experience in software development, web technologies, and application design.
+
+I enjoy working on real-world problems, exploring new technologies, and transforming ideas into functional digital solutions. My goal is to grow as a responsible developer with strong technical and professional ethics.
+
+View My Portfolio
+
+PORTFOLIO SECTION
+Portfolio
+
+Selected Projects
+
+Below are some of my academic and personal projects that demonstrate my learning progress, problem-solving skills, and technical capabilities in software development.
+
+Academic Projects
+
+Web Applications
+
+Practice Systems & Mini Projects
+
+View Project →
+
+SKILLS SECTION
+Technical Skills
+
+I Continuously Improve My Skills Through Practice
+
+CSS – 70%
+JavaScript – 75%
+React – 70%
+Flutter – 90%
+Python – 65%
+SQL / MongoDB – 65%
+
+CONTACT SECTION
+Contact Me
+
+Feel free to reach out for collaboration, academic discussions, project opportunities, or internships.
+
+Name
+Email
+Message
+
+Send Message
+
+📍 Location
+Kathmandu, Nepal
+
+📧 Email
+aayushlamichhane642@gmail.com
+
+📞 Phone
+9849818935
+
+BLOG SECTION
+Blog & Articles
+
+Learning, Projects, and Technical Insights
+
+I share my learning experiences, coding practices, project breakdowns, and insights related to computer science and software development.
+
+Category: Web Development
+Title: Learning and Growing as a Student Developer
+
+FOOTER
+
+© 2026 Aayush Lamichhane. All Rights Reserved.
+
+Terms & Conditions
+Privacy Policy
