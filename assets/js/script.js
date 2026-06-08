@@ -82,3 +82,48 @@ window.addEventListener("load", () => {
     document.body.classList.add("page-ready");
   }, 700);
 });
+
+// EmailJS Configuration
+emailjs.init("mwV5HZYSP-Sjbfcka");
+
+// Handle Contact Form Submission
+const contactForm = document.getElementById("contactForm");
+if (contactForm) {
+  contactForm.addEventListener("submit", async (e) => {
+    e.preventDefault();
+
+    const submitBtn = document.getElementById("submitBtn");
+    const originalText = submitBtn.textContent;
+    submitBtn.textContent = "Sending...";
+    submitBtn.disabled = true;
+
+    try {
+      await emailjs.sendForm(
+        "service_5rqjsgi",
+        "template_7umtkmf",
+        contactForm,
+      );
+
+      submitBtn.textContent = "Message sent!";
+      submitBtn.style.backgroundColor = "#4CAF50";
+
+      contactForm.reset();
+
+      setTimeout(() => {
+        submitBtn.textContent = originalText;
+        submitBtn.disabled = false;
+        submitBtn.style.backgroundColor = "";
+      }, 3000);
+    } catch (error) {
+      console.error("Error sending email:", error);
+      submitBtn.textContent = "Error sending message";
+      submitBtn.style.backgroundColor = "#f44336";
+
+      setTimeout(() => {
+        submitBtn.textContent = originalText;
+        submitBtn.disabled = false;
+        submitBtn.style.backgroundColor = "";
+      }, 3000);
+    }
+  });
+}

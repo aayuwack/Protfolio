@@ -11,6 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Bebas+Neue&display=swap"
       rel="stylesheet"
     />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/index.min.js"
+    ></script>
   </head>
   <body id="top">
     <div class="preloader" data-preloader>
@@ -193,12 +197,13 @@
               <a href="mailto:aayushlamichhane642@gmail.com"
                 >aayushlamichhane642@gmail.com</a
               >
-              <a href="tel:+97798XXXXXXXX">+977 98XXXXXXXX</a>
+              <a href="tel:+9779849818935">+977 9849818935</a>
+              <a href="https://github.com/aayuwack" target="_blank">GitHub</a>
               <span>Kathmandu, Nepal</span>
             </div>
           </div>
 
-          <form class="contact-form reveal" data-reveal>
+          <form class="contact-form reveal" data-reveal id="contactForm">
             <label>
               Name
               <input type="text" name="name" required />
@@ -211,7 +216,9 @@
               Project details
               <textarea name="message" rows="5" required></textarea>
             </label>
-            <button type="submit" class="btn btn-dark">Send message</button>
+            <button type="submit" class="btn btn-dark" id="submitBtn">
+              Send message
+            </button>
           </form>
         </div>
       </section>
